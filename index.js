@@ -65,7 +65,7 @@ module.exports = function() {
                   // object that you now have to import properties from
                   t = template(`const {${imp.local.name}} = ${opt.fromGlobal};`)
                 } else {
-                  t = template(`const ${imp.local.name} = ${opt.fromGlobal};` )
+                  t = template(`const ${imp.local.name} = ${opt.fromGlobal}.default;` )
                 }
 
                 let ast = t({})

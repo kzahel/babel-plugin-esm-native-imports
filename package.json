@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-esm-native-imports",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms imports for use with native browser ESM",
   "keywords": [
     "babel",
