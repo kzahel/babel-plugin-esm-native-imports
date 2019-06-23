@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-esm-native-imports",
+  "version": "1.0.0",
+  "description": "Transforms imports for use with native browser ESM",
+  "keywords": [
+    "babel",
+    "transform",
+    "import",
+    "native-esm"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kzahel/babel-plugin-esm-native-imports"
+  },
+  "homepage": "https://github.com/kzahel/babel-plugin-esm-native-imports",
+  "author": "Kyle Graehl",
+  "license": "MIT",
+  "dependencies": {
+    "babel-template": "^6.26.0",
+    "babel-types": "^6.26.0"
+  }
+}
