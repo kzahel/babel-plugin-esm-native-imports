@@ -55,7 +55,7 @@ npm install --save-dev babel-plugin-native-esm-imports
   "plugins": [
     "@babel/plugin-transform-react-jsx",
     "@babel/plugin-syntax-class-properties",
-    ["esm-native-imports", {
+    ["babel-plugin-esm-native-imports", {
       "rules": [
         {
           "match":"(legacyJs).*?",
@@ -101,5 +101,5 @@ Each option looks like
 | `match` | `string` | no |  | String or regexp to match for the name of the import module. e.g. the `react` in `import React from 'react'` |
 | `fromGlobal` | `string` | no |  | The global variable name exposed by your UMD module on window object e.g. because you imported the unpkg version of react, you have `window.ReactDOM` defined, so set fromGlobal to `ReactDOM` |
 | `replace` | `string` | no |  | If you have a regexp group in the match part, it will be replaced with this string |
-| `propertyImport` | `boolean` | no | `false` | When set to true, forces imports to be property imports e.g. const {foo} |
+| `propertyImport` | `boolean` | no | `false` | When set to true, forces imports to be property imports e.g. const {foo} = fromGlobal |
 
