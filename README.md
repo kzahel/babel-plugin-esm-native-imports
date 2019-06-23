@@ -6,6 +6,7 @@ have these modules already loaded into the browser:
 
 - https://unpkg.com/react@latest/umd/react.development.js
 - https://unpkg.com/@material-ui/core@latest/umd/material-ui.development.js
+- etc
 
 You want to take an existing probject that is using webpack and
 compiling your modules from this format:
